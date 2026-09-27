@@ -1,0 +1,16 @@
+{
+  "name": "ramin-clinic-sync",
+  "version": "1.0.0",
+  "description": "Simple sync server for Dr. Ramin Clinic PWA",
+  "main": "sync-server.js",
+  "scripts": {
+    "start": "node sync-server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
